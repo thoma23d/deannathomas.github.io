@@ -221,7 +221,8 @@ iframe { width: 100%; height: 100%; }
 }
 button{
 	background-color: Wheat;
-	border: 1px solid DarkOrange;
+	border: 2px solid DarkOrange;
+	color: MediumBlue;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
