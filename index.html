@@ -8,8 +8,18 @@
 <link rel="stylesheet" type="text/css" href="Static/css/portfolio.css">	
 </head>
 
-<body>	
-<header> 
+<div id=homePage>
+	<div class="hero-image">
+	 	<div class="hero-text">
+	 		<h3>Hi! I'm</h3>
+		    <h1>Deanna Thomas</h1>
+		    <p>And I'm an aspiring Software Engineer</p>
+		    <p><a class="down arrow" href=#sectAbout></a></p>
+		</div>
+	</div>
+</div>	
+<body>
+<header class="header" id="myHeader"> 
 	<div id="logo"> <a href="index.html">Image</a> </div> 
 	<nav> 
 		<ul>
@@ -20,56 +30,44 @@
 		</ul>
 	</nav>
 </header>
-<div id=homePage>
-	<div class="hero-image">
-	 	<div class="hero-text">
-	 		<h3>Hi! I'm</h3>
-		    <h1>Deanna Thomas</h1>
-		    <p>And I'm an aspiring Software Engineer</p>
-		    <button><a href=#sectAbout>More About Me</a></button>
-		</div>
-	</div>
-</div>	
 <div id="sectAbout">
-	<h2>About Me</h2>
-	<section id="sectOne">
-		<div id="aboutImage"></div>			
-		<h3><u>Personal Profile:</u></h3>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat.</p>
+	<h2><u>About Me</u></h2>	
+	<section id="sectOne">				
+		<h3>Personal Profile:</h3>
+		<p>I am a recent graduate from Mount Holyoke College with a B.A. in Computer Science. I am intresting in expanding my programming skills through corporate experience.</p>
 	</section>
-	<section id="sectTwo">
-		<h3><u>More...</u></h3>
-		<div id="moreInfo">
-			<dl>
-				<dt><h4>Languages:</h4></dt>
-				<dd>Java</dd>
-				<dd>Python</dd>
-				<dd>Swift</dd>
-				<dd>Javascript</dd>
-			</dl>		
-			<dl>
-				<dt><h4>Interest:</h4></dt>
-				<dd>Photography</dd>
-				<dd>Volunteer working with youth</dd>
-				<dd>Rockclimbing</dd>
-				<dd>Sewing</dd>
-				<dd>Graphic Design</dd>
-			</dl>
+	<section id="sectTwo">		
+		<div id="aboutImage"></div>
+		<h3>Interest...</h3>		
+		<div id="moreInfo">							
+			<ul><h4>On my free time I enjoy...</h4>
+				<li>Photography</li>
+				<li>Volunteer working with youth</li>
+				<li>Rock Climbing</li>
+				<li>Sewing</li>
+				<li>Graphic Design</li>
+			</ul>
+			<ul><h4>I have experience in...</h4>
+				<li>Java</li>
+				<li>Python</li>
+				<li>Swift</li>
+				<li>Javascript</li>	
+				<li>PHP</li>	
+			</ul>			
 		</div>			
 	</section>
 </div>
 <div id="sectProject">
-	<h2>The Things I've Made</h2>
-	<h3>Here are some of my personal projects</h3>
+	<div id="project_text">
+		<h2><u>The Things I've Made</u></h2>
+		<h3>Here are some of my personal projects</h3>
+	</div>
 	<section class="project one">
 		<div class="web one">
 			<iframe src="https://en.wikipedia.org/"></iframe>
 		</div>
 		<div class="info one">			
-			<h3><u>Project Title</u></h3>
+			<h3><a href="google.com" target="_blank">Project Title</a></h3>
 			<p>  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -83,7 +81,7 @@
 			<iframe src="https://en.wikipedia.org/"></iframe>
 		</div>	
 		<div class="info two">		
-			<h3><u>Music Genre Classifier</u></h3>
+			<h3><a href="google.com" target="_blank">Music Genre Classifier</a></h3>
 			<p>  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -97,7 +95,7 @@
 			<iframe src="https://en.wikipedia.org/"></iframe>
 		</div>
 		<div class="info three">		
-			<h3><u>Text Summarizer</u></h3>
+			<h3><a href="google.com" target="_blank">Text Summarizer</a></h3>
 			<p>  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -111,7 +109,7 @@
 			<iframe src="https://en.wikipedia.org/"></iframe>
 		</div>
 		<div class="info four">		
-			<h3><u>Ice Cream Shop</u></h3>
+			<h3><a href="google.com" target="_blank">Ice Cream Shop</a></h3>
 			<p>  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -129,10 +127,10 @@
 </div>
 <div id="sectConnect">
 	<div id="connect">
-		<h2>Lets Connect!</h2>
-		<h4>Currently looking for full time programming experience. Reach out if you have any opportunites or just a question. I'll get back to you as soon as i can.</h4>
-		<button onclick="window.location.href='linkedin.com/in/deanna-thomas-5881ab155' ">LinkedIn</button>
-		<button><a href=#sectAbout>Email Me</a></button>
+		<h2><u>Lets Connect!</u></h2>
+		<h4>I am currently seeking full time programming experience. Feel free to reach out if you have any questions or just want to chat. I'll get back to you as soon as I can.</h4>
+		<button><a href="linkedin.com/in/deanna-thomas-5881ab155" target="_blank">LinkedIn</a></button>
+		<button><a href="mailto:thoma23d@mtholyoke.edu">Email Me</a></button>
 	</div>
 </div>
 <footer>
