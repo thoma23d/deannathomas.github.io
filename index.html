@@ -1,0 +1,152 @@
+<!doctype html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content= "width=device-width, initial-scale-1.0">
+<link rel="icon" type="image/png" href="static/favicon_io/favicon-32x32.png">
+<title>Deanna Thomas</title>
+<link rel="stylesheet" type="text/css" href="static/css/portfolio.css">	
+</head>
+
+<div id=sectHome>
+	<div class="hero-image">
+	 	<div class="hero-text">
+	 		<h3>Hi! I'm</h3>
+		    <h1>Deanna Thomas</h1>
+		    <p>And I'm an aspiring Software Engineer.</p>
+		    <a class="down arrow" href=#sectAbout></a>
+		</div>
+	</div>
+</div>	
+<body>
+<header class="header" id="myHeader"> 
+	<div id="logo">
+		<a href="#sectHome"></a>
+	</div> 
+	<nav>
+		<ul>
+			<li><a href=#sectAbout>About</a>&nbsp;</li>
+			<li><a href=#sectProject>Projects</a>&nbsp;</li>	
+			<li><a href=#sectResume>Resume</a>&nbsp;</li>
+			<li><a href=#sectConnect>Connect</a>&nbsp;</li>
+		</ul>
+	</nav>
+</header>
+<div id="sectAbout">
+	<h2><u>About Me</u></h2>	
+	<section id="sectOne">	
+		<div id="aboutImage"></div>
+		<div id="personalProfile">
+			<h3>Personal Profile:</h3>
+			<p>I am a recent graduate from Mount Holyoke College with a B.A. in Computer Science. I am intresting in expanding my programming skills through corporate experience.</p>
+		</div>
+	</section>
+	<section id="sectTwo">
+		<h3>Interest...</h3>		
+		<div id="moreInfo">							
+			<ul><h4>On my free time I enjoy...</h4>
+				<li>Photography</li>
+				<li>Volunteer working with youth</li>
+				<li>Rock Climbing</li>
+				<li>Sewing</li>
+				<li>Graphic Design</li>
+			</ul>
+			<ul><h4>I have experience in...</h4>
+				<li>Java</li>
+				<li>Python</li>
+				<li>Swift</li>
+				<li>Javascript</li>	
+				<li>PHP</li>	
+			</ul>			
+		</div>			
+	</section>
+</div>
+<div id="sectProject">
+	<div id="project_text">
+		<h2><u>The Things I've Made</u></h2>
+		<h3>Here are some of my personal projects</h3>
+	</div>
+	<section class="project one">
+		<div class="web one">
+			<iframe src="https://thoma23d.pythonanywhere.com/TextSummarizer" allowTransparency="true" scrolling="no" frameborder="0"></iframe>
+		</div>
+		<div class="info one">		
+			<h3>Text Summarizer</h3>
+			<p>
+				<b>Description:</b> A data science flask web application that implements four extractive
+				summarization algorithms which allows the user to input a file and receive a summary based on the algorithm of their choosing.<br><br>
+				<b>Plans:</b> Preprocess the input text more sufficiently by removing the headers and references from the text and replacing the pronouns with its noun. I also intend to implement an abstractive text summarizarization algorith and make algorithms work with spanish.
+			</p>			
+			<h5>Git page: <a href="https://github.com/thoma23d/Text-Summarizer" target="_blank" rel="noopener noreferrer">Git Link</a></h5>
+		</div>
+	</section>
+	
+	<section class="project two">
+		<div class="web two">
+			<iframe src="https://thoma23d.pythonanywhere.com/GenreClassifier" allowTransparency="true" scrolling="no" frameborder="0"></iframe>
+		</div>	
+		<div class="info two">		
+			<h3>Music Genre Classifier</h3>
+			<p> 
+				<b>Description:</b> An artificial intelligence flask based Web Application that utilizes data provided by the python Spotify API and decision tree to classify any song searched by the user into one of six different genres.<br><br>
+				<b>Plans:</b> Increase the forest score/accuracy from 50% to at least 70%. Display the lyrics or the audio visuals of the searched track along side the album cover.
+			</p>
+			<h5>Git page: <a href="https://github.com/thoma23d/Music-Genre-Classifier" target="_blank" rel="noopener noreferrer">Git Link</a></h5>
+		</div>
+	</section>
+	
+	<section class="project three">
+		<div class="web three">
+			<video controls>
+				<source src="static/media/Ice-Cream-Shop.mp4" type="video/mp4">
+					Your browser does not support mp4 video. Please view the video here: <a href="static/media/Ice-Cream-Shop.mp4" download> Download PDF</a>.
+			</video>
+		</div>
+		<div class="info three">		
+			<h3>Ice Cream Shop</h3>
+			<p>
+				<b>Description:</b> A SwiftUI game that utilizes data structures to allow the player to stack ice cream scoops of various flavors onto a cone to fulfill the customer order request. The player then receives points if the ice cream flavors match the customer's request.<br><br>
+				<b>Plans:</b> Create customers and a more aesthetically pleasing UI design, remove the ice cream order from the screen after a random time
+			</p>			
+			<h5>Git page: <a href="https://github.com/thoma23d/Ice-Cream-Shop" target="_blank" rel="noopener noreferrer">Git Link</a></h5>
+		</div>
+	</section>
+	
+	<section class="project four">
+		<div class="web four">
+			<img src="static/images/coming-soon.png" alt="Coming Soon"></img>
+		</div>
+		<div class="info four">			
+			<h3>Chrome Planner</h3>
+			<p>  
+				<b>Description:</b> Java based chrome extension that helps the user with monitering and alotting their screen time through notifactions and assistance with creating a personalized detailed schedule.<br><br>
+				<b>Plans:</b> Coming soon.
+			</p>			
+			<h5>Git page: <a href="https://github.com/" target="_blank" rel="noopener noreferrer">Git Link</a></h5>
+		</div>
+	</section>				
+</div>
+<div id="sectResume">
+	<h2>Here's my full Resume</h2>
+	<div id="resumePdf">	
+		<object data="static/pdf/DThomas(resume).pdf" type=”application/pdf” src="Static/pdf/DThomas(resume).pdf">
+			This browser does not support PDFs. Please download the PDF to view it: <a href="static/pdf/DThomas(resume).pdf" download> Download PDF</a>.
+		</object>
+	</div>
+</div>
+<div id="sectConnect">
+	<div id="connect">
+		<h2><u>Lets Connect!</u></h2>
+		<h4>I am currently seeking full time programming experience. Feel free to reach out if you have any questions or just want to chat. I'll get back to you as soon as I can.</h4>
+		<button><a href="https://www.linkedin.com/in/deanna-thomas-5881ab155/" target="_blank" rel="noopener noreferrer">LinkedIn</a></button>
+		<button><a href="mailto:thoma23d@mtholyoke.edu">Email Me</a></button>
+	</div>
+</div>
+<footer>
+	Copyright &copy; 2020 Deanna Thomas Portfolio Website<br>
+	<a href = "mailto: thoma23d@mtholyoke.edu">thoma23d@mtholyoke.edu</a>
+</footer>
+<script src="static/js/portfolio.js"></script>
+</body>
+</html>
